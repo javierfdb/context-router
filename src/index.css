@@ -1,0 +1,56 @@
+
+.container.fav {
+    min-height: 1000px;
+}
+
+.svg-like {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.svg-like:hover {
+    cursor: pointer;
+}
+
+.card-body {
+    position: absolute;
+    color: white; 
+    bottom: 0;
+}
+
+h5.card-title {
+    font-size: 1rem;
+}
+
+nav {
+    background-color: pink;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;  
+}
+
+nav ul li {
+    margin: 0 .5rem;  
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: .17rem;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #000;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
