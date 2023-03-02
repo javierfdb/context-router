@@ -54,3 +54,16 @@ nav ul li a.active {
 nav ul li a:hover {
     color: #000;
 }
+
+.row.franja {
+    background-color: pink;
+    margin: .5rem 0rem;
+    padding: .8rem 0rem;
+    margin-bottom: 2rem;
+}
+
+.row.franja p {
+    margin-bottom: .3rem;
+    font-size: 16px;
+    font-weight: bold;
+}

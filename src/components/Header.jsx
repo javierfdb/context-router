@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom'
 export default function Header() {
     return (
         <header>
-            <div className="container my-5">
+            <div className="container mt-5">
                 <nav>
                     <ul>              
                         <li>
